@@ -1,0 +1,123 @@
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(0, 'Bruce', 'Wayne', 'Bruce.Wayne@example.com', '1920-06-21', 150000.00, '123-456-7890', 1);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(1, 'Snoopy', 'Beagle', 'Snoopy.Beagle@example.com', '2022-08-01', 45000.00, '111-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(2, 'Charlie', 'Brown', 'Charlie.Brown@example.com', '2022-07-01', 48000.00, '111-22-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(3, 'Lucy', 'Doctor', 'Lucy.Doctor@example.com', '2022-07-03', 55000.00, '111-33-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(4, 'Peppermint', 'Patti', 'Peppermint.Patti@example.com', '2022-08-02', 98000.00, '111-44-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(5, 'Linus', 'Blanket', 'Linus.Blanket@example.com', '2022-09-01', 43000.00, '111-55-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(6, 'PigPen', 'Dusty', 'PigPen.Dusty@example.com', '2022-10-01', 33000.00, '111-66-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(7, 'Scooby', 'Doo', 'Scooby.Doo@example.com', '1973-07-03', 78000.00, '111-77-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(8, 'Shaggy', 'Rodgers', 'Shaggy.Rodgers@example.com', '1973-07-11', 77000.00, '111-88-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(9, 'Velma', 'Dinkley', 'Velma.Dinkley@example.com', '1973-07-21', 82000.00, '111-99-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(10, 'Daphne', 'Blake', 'Daphne.Blake@example.com', '1973-07-30', 59000.00, '111-00-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(11, 'Bugs', 'Bunny', 'Bugs.Bunny@example.com', '1934-07-01', 18000.00, '222-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(12, 'Daffy', 'Duck', 'Daffy.Duck@example.com', '1935-04-01', 16000.00, '333-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(13, 'Porky', 'Pig', 'Porky.Pig@example.com', '1935-08-12', 16550.00, '444-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(14, 'Elmer', 'Fudd', 'Elmer.Fudd@example.com', '1934-08-01', 15500.00, '555-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(15, 'Marvin', 'Martian', 'Marvin.Martian@example.com', '1937-05-01', 28000.00, '777-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(16, 'Jessica', 'Rabbit', 'Jessica.Rabbit@example.com', '1988-06-21', 95000.00, '888-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(17, 'Roger', 'Rabbit', 'Roger.Rabbit@example.com', '1988-06-22', 35000.00, '999-11-1111', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(18, 'Mickey', 'Mouse', 'Mickey.Mouse@example.com', '1928-11-18', 125000.00, '123-45-6789', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(19, 'Minnie', 'Mouse', 'Minnie.Mouse@example.com', '1928-11-18', 115000.00, '234-56-7890', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(20, 'Donald', 'Duck', 'Donald.Duck@example.com', '1934-06-09', 85000.00, '345-67-8901', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(21, 'Goofy', 'Goof', 'Goofy.Goof@example.com', '1932-05-25', 65000.00, '456-78-9012', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(22, 'Pluto', 'Dog', 'Pluto.Dog@example.com', '1930-09-05', 45000.00, '567-89-0123', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(23, 'Sarah', 'Johnson', 'Sarah.Johnson@example.com', '2021-03-15', 72000.00, '678-90-1234', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(24, 'Michael', 'Williams', 'Michael.Williams@example.com', '2021-04-22', 68000.00, '789-01-2345', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(25, 'Emily', 'Davis', 'Emily.Davis@example.com', '2020-11-10', 76000.00, '890-12-3456', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(26, 'David', 'Miller', 'David.Miller@example.com', '2022-01-05', 82000.00, '901-23-4567', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(27, 'Jennifer', 'Wilson', 'Jennifer.Wilson@example.com', '2019-08-14', 91000.00, '012-34-5678', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(28, 'Robert', 'Taylor', 'Robert.Taylor@example.com', '2020-05-30', 78000.00, '123-45-6780', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(29, 'Lisa', 'Anderson', 'Lisa.Anderson@example.com', '2021-09-12', 67000.00, '234-56-7891', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(30, 'Thomas', 'Jackson', 'Thomas.Jackson@example.com', '2018-07-22', 105000.00, '345-67-8902', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(31, 'Amanda', 'White', 'Amanda.White@example.com', '2022-02-18', 58000.00, '456-78-9013', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(32, 'Daniel', 'Harris', 'Daniel.Harris@example.com', '2021-11-05', 72000.00, '567-89-0124', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(33, 'Michelle', 'Martin', 'Michelle.Martin@example.com', '2020-04-17', 89000.00, '678-90-1235', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(34, 'Christopher', 'Thompson', 'Christopher.Thompson@example.com', '2019-10-08', 94000.00, '789-01-2346', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(35, 'Laura', 'Garcia', 'Laura.Garcia@example.com', '2022-03-25', 62000.00, '890-12-3457', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(36, 'Kevin', 'Martinez', 'Kevin.Martinez@example.com', '2021-06-14', 71000.00, '901-23-4568', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(37, 'Stephanie', 'Robinson', 'Stephanie.Robinson@example.com', '2020-12-03', 83000.00, '012-34-5679', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(38, 'Richard', 'Clark', 'Richard.Clark@example.com', '2018-09-19', 112000.00, '123-45-6781', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(39, 'Nicole', 'Rodriguez', 'Nicole.Rodriguez@example.com', '2021-07-28', 69000.00, '234-56-7892', NULL);
+INSERT INTO employeedata.employees
+(empid, Fname, Lname, email, HireDate, Salary, SSN, admin)
+VALUES(40, 'Jason', 'Lewis', 'Jason.Lewis@example.com', '2022-05-11', 75000.00, '345-67-8903', NULL);
