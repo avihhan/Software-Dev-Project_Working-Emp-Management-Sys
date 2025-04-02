@@ -3,9 +3,9 @@ import java.util.Scanner;
 
 public class EmployeeLoginSystem {
     // Database connection
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/employeeData";
+    private static final String DB_URL = "jdbc:mysql://34.29.27.190:3306/employeedata";
     private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "Your_Password";
+    private static final String DB_PASSWORD = "root";
     
     // Company name for password pattern
     private static final String company_name = "company";
