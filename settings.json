@@ -1,0 +1,9 @@
+{
+    "java.project.sourcePaths": [
+        "__MACOSX",
+        "."
+    ],
+    "java.project.referencedLibraries": [
+        "mysql-connector-j-9.1.0.jar\\mysql-connector-j-9.1.0.jar"
+    ]
+}
