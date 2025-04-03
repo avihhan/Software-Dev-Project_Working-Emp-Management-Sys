@@ -3,9 +3,6 @@ import java.util.Scanner;
 
 public class EmployeeLoginSystem {
     
-    
-    
-    
     // Database connection
     private static final String DB_URL = "jdbc:mysql://34.29.27.190:3306/employeedata";
     private static final String DB_USER = "root";
