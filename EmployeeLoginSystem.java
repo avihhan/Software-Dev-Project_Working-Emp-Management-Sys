@@ -2,6 +2,10 @@ import java.sql.*;
 import java.util.Scanner;
 
 public class EmployeeLoginSystem {
+    
+    
+    
+    
     // Database connection
     private static final String DB_URL = "jdbc:mysql://34.29.27.190:3306/employeedata";
     private static final String DB_USER = "root";
@@ -11,6 +15,14 @@ public class EmployeeLoginSystem {
     private static final String company_name = "company";
     
     public static void main(String[] args) {
+        try {
+            Class.forName("com.mysql.cj.jdbc.Driver"); // Load MySQL JDBC Driver
+        } catch (ClassNotFoundException e) {
+            System.out.println("MySQL JDBC Driver not found!");
+            e.printStackTrace();
+            return;
+        }
+        
         Scanner scanner = new Scanner(System.in);
         
         System.out.println("=== EMPLOYEE LOGIN SYSTEM ===");
@@ -23,6 +35,8 @@ public class EmployeeLoginSystem {
         String password = scanner.nextLine();
         
         // Check credentials
+        
+
         if (authenticate(empid, password)) {
             System.out.println("\nLogin successful! Welcome, Employee " + empid);
             
