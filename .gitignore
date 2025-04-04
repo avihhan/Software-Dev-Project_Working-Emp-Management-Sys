@@ -1,0 +1,11 @@
+# Java
+*.class
+target/
+bin/
+
+# IDE
+.vscode/
+.idea/
+
+# Database credentials
+*.properties
