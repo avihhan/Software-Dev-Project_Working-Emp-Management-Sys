@@ -1,11 +1,11 @@
-package com.example.employeelogin.services;
+package com.example.employeemanagement.functions.services;
 
-import org.springframework.stereotype.Service;
 import java.sql.*;
+import org.springframework.stereotype.Service;
 
 @Service
 public class EmployeeLoginService {
-    
+    // Database connection
     private static final String DB_URL = "jdbc:mysql://34.29.27.190:3306/employeedata";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "root";
@@ -32,6 +32,26 @@ public class EmployeeLoginService {
         } catch (SQLException e) {
             System.out.println("Database error: " + e.getMessage());
             return false;
+        }
+    }
+
+    public boolean isAdmin(String empid) {
+        String sql = "SELECT admin FROM employees WHERE empid = ?";
+        
+        try (Connection conn = DriverManager.getConnection(DB_URL, DB_USER, DB_PASSWORD);
+             PreparedStatement stmt = conn.prepareStatement(sql)) {
+            
+            stmt.setString(1, empid);
+            ResultSet rs = stmt.executeQuery();
+            
+            if (rs.next()) {
+                // Returns true if admin column equals 1
+                return rs.getInt("admin") == 1;
+            }
+            return false;
+            
+        } catch (SQLException e) {
+            throw new RuntimeException("Database error while checking admin status: " + e.getMessage());
         }
     }
 }

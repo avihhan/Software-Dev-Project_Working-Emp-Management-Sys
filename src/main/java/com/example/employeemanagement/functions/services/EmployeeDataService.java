@@ -1,13 +1,13 @@
-package com.example.employeelogin.services;
+package com.example.employeemanagement.functions.services;
 
-import org.springframework.stereotype.Service;
 import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
+import org.springframework.stereotype.Service;
 
 @Service
 public class EmployeeDataService {
-    
+    // Database connection
     private static final String DB_URL = "jdbc:mysql://34.29.27.190:3306/employeedata";
     private static final String DB_USER = "root";
     private static final String DB_PASSWORD = "root";
