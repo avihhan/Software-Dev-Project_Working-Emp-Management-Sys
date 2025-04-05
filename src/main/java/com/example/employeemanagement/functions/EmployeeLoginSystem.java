@@ -1,3 +1,4 @@
+package com.example.employeemanagement.functions;
 import java.sql.*;
 import java.util.Scanner;
 

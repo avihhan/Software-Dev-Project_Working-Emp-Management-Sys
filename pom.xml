@@ -16,7 +16,7 @@
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>mysql</groupId>
+      <groupId>com.mysql</groupId>
       <artifactId>mysql-connector-j</artifactId>  <!-- Note the artifactId change -->
       <version>9.1.0</version>  <!-- Explicit version -->
       <scope>runtime</scope>
