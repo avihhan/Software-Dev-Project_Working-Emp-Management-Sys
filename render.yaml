@@ -1,7 +1,7 @@
 services:
   - type: web
     name: springboot-app
-    runtime: java  # Required for Java apps on Render
+    # Remove the runtime line completely - Render now uses automatic detection
     plan: free
     branch: main
     buildCommand: ./mvnw clean package
@@ -9,5 +9,7 @@ services:
     envVars:
       - key: JAVA_VERSION
         value: 11
+      - key: PORT
+        value: 8080
       - key: SERVER_PORT
-        value: $PORT  # Required for Render's dynamic port assignment
+        value: $PORT
