@@ -1,15 +1,10 @@
 services:
   - type: web
     name: springboot-app
-    # Remove the runtime line completely - Render now uses automatic detection
+    runtime: docker
     plan: free
     branch: main
-    buildCommand: ./mvnw clean package
-    startCommand: java -jar target/*.jar
+    # No buildCommand needed - Docker handles everything
     envVars:
-      - key: JAVA_VERSION
-        value: 11
       - key: PORT
         value: 8080
-      - key: SERVER_PORT
-        value: $PORT
