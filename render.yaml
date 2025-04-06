@@ -1,11 +1,11 @@
 services:
   - type: web
     name: springboot-app
-    env: java
+    runtime: java  # ✅ Correct runtime identifier for Render
     plan: free
     branch: main
     buildCommand: ./mvnw clean package
     startCommand: java -jar target/*.jar
     envVars:
       - key: JAVA_VERSION
-        value: 11
+        value: 11  # Matches your pom.xml's <java.version>11</java.version>
