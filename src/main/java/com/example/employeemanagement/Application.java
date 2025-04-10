@@ -20,7 +20,7 @@ public class Application {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                     .allowedOrigins(
-                        "https://avihhan.github.io/Software-Dev-Project_Working-Emp-Management-Sys-frontend/",
+                        "https://software-dev-project-working-emp-management-sys-fron-36uttqgds.vercel.app",
                         "https://fuzzy-robot-5jxvrgp5xqvh6vj-3000.app.github.dev",
                         "https://avihhan.github.io",
                         "http://localhost:3000")
