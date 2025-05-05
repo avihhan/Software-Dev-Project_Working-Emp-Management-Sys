@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmployeeDataService {
     // Database connection
-    private static final String DB_URL = "jdbc:mysql://database-1.c1qc88ayc19c.us-east-2.rds.amazonaws.com:3306/employee_db";
+    private static final String DB_URL = "jdbc:mysql://database-1.c1qc88ayc19c.us-east-2.rds.amazonaws.co:3066/employee_db";
     private static final String DB_USER = "admin";
     private static final String DB_PASSWORD = "avihan123";
 

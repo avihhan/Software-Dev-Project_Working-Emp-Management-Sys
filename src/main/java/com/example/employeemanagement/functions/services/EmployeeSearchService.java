@@ -15,10 +15,10 @@ import org.springframework.stereotype.Service;
 @Service
 public class EmployeeSearchService {
     // Database connection
-    private static final String DB_URL = "jdbc:mysql://34.29.27.190:3306/employeedata";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "root";
-
+    private static final String DB_URL = "jdbc:mysql://database-1.c1qc88ayc19c.us-east-2.rds.amazonaws.com:3306/";
+    private static final String DB_USER = "admin";
+    private static final String DB_PASSWORD = "avihan123";
+    
     public List<Map<String, Object>> searchEmployees(String searchBy, String searchValue) {
         Connection connection;
         try {
